@@ -22,6 +22,40 @@
 
 <p>문자열 <code>my_string</code>이 매개변수로 주어집니다. <code>my_string</code>을 거꾸로 뒤집은 문자열을 return하도록 solution 함수를 완성해주세요.</p>
 
+### 배운 점
+charAt() 사용해도 되지만, stringbuffer나 stringbuilder 사용해서 reverse()함수 사용해도 가능
+
+- springbuffer일 때
+    
+    StringBuffer(my_string).reverse().toString();
+    
+- springBuilder일 때
+`return new StringBuilder(myString).reverse().toString();`
+
+왜 string 대신 쓸까?
+
+string은 불변이라 문자열을 조작할 때마다 새로운 객체를 생성한다. < 메모리 낭비가 생길 수 있음
+
+## 📌 주요 특징
+
+| 특징 | 설명 |
+| --- | --- |
+| **가변성** | 문자열을 자유롭게 추가, 삭제, 수정 가능 |
+| **빠른 성능** | 문자열 조작 시 `String`보다 훨씬 빠름 |
+
+---
+
+## ✅ 자주 쓰는 메서드
+
+| 메서드 | 설명 | 예시 |
+| --- | --- | --- |
+| `append(String s)` | 문자열 뒤에 추가 | `sb.append("World")` |
+| `insert(int offset, String s)` | 특정 위치에 삽입 | `sb.insert(5, " Java")` |
+| `delete(int start, int end)` | 문자열 일부 삭제 | `sb.delete(0, 5)` |
+| `replace(int start, int end, String s)` | 문자열 일부 교체 | `sb.replace(0, 5, "Hi")` |
+| `reverse()` | 문자열 반전 | `sb.reverse()` |
+| `toString()` | `StringBuilder` → `String` 변환 | `sb.toString()` |
+
 <hr>
 
 <h5>제한사항</h5>
