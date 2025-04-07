@@ -22,6 +22,11 @@
 
 <p>문자열 배열 <code>strlist</code>가 매개변수로 주어집니다. <code>strlist</code> 각 원소의 길이를 담은 배열을 return하도록 solution 함수를 완성해주세요.</p>
 
+### 배운 점
+stream 쓰면 더 쉽게할 수 있음..<br>
+string > length()<br>
+array > length
+
 <hr>
 
 <h5>제한사항</h5>
