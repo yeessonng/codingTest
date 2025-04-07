@@ -22,6 +22,9 @@
 
 <p>정수 배열 <code>numbers</code>와 정수 <code>num1</code>, <code>num2</code>가 매개변수로 주어질 때, <code>numbers</code>의 <code>num1</code>번 째 인덱스부터 <code>num2</code>번째 인덱스까지 자른 정수 배열을 return 하도록 solution 함수를 완성해보세요.</p>
 
+### 배운 점
+배열 선언 시 크기 지정!
+
 <hr>
 
 <h5>제한사항</h5>
