@@ -27,6 +27,18 @@ stream 쓰면 더 쉽게할 수 있음..<br>
 string > length()<br>
 array > length
 
+return Arrays.stream(strList)
+.mapToInt(String::length)
+.toArray();<br>
+
+strList를 스트림으로 바꿈 > 스트림은 배열, 리스트 같은 것을 하나씩 순회하면서 처리할 수 있게 해주는 도구<br>
+
+.mapToInt(String::length) > 각 문자열에 대해 .length() 메서드를 호출해서 int 값으로 바꿔준다<br>
+
+스트림 안의 데이터를 int 값으로 바꾸는 함수.<br>
+
+.mapToInt(s→s.length())
+
 <hr>
 
 <h5>제한사항</h5>
