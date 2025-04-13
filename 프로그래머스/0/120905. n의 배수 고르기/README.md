@@ -22,6 +22,14 @@
 
 <p>정수 <code>n</code>과 정수 배열 <code>numlist</code>가 매개변수로 주어질 때, <code>numlist</code>에서 <code>n</code>의 배수가 아닌 수들을 제거한 배열을 return하도록 solution 함수를 완성해주세요.</p>
 
+### 배운 점
+stream 쓰자
+stream > 반복하면서 요소를 처리할 수 있는 도구
+
+Arrays.stream(answer)
+.filter(x→x%n==0)
+.toArray();
+
 <hr>
 
 <h5>제한사항</h5>
