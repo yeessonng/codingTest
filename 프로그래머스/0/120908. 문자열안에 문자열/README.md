@@ -22,6 +22,9 @@
 
 <p>문자열 <code>str1</code>, <code>str2</code>가 매개변수로 주어집니다. <code>str1</code> 안에 <code>str2</code>가 있다면 1을 없다면 2를 return하도록 solution 함수를 완성해주세요.</p>
 
+### 배운 점
+contains 메서드 사용하면 더 쉬움…
+
 <hr>
 
 <h5>제한사항</h5>
