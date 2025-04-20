@@ -22,6 +22,10 @@
 
 <p>정수가 담긴 리스트&nbsp;<code>num_list</code>가 주어질 때, <code>num_list</code>의 원소 중 짝수와 홀수의 개수를 담은 배열을 return 하도록 solution 함수를 완성해보세요.</p>
 
+### 배운 점
+실무에서 이렇게 쓰면 욕먹을듯
+answer[0]++; < 이렇게 쓰는게 가능함
+
 <hr>
 
 <h5>제한사항</h5>
