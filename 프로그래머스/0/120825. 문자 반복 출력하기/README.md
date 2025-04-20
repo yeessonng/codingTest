@@ -22,6 +22,11 @@
 
 <p>문자열 <code>my_string</code>과 정수 <code>n</code>이 매개변수로 주어질 때, <code>my_string</code>에 들어있는 각 문자를 <code>n</code>만큼 반복한 문자열을 return 하도록 solution 함수를 완성해보세요.</p>
 
+### 배운 점
+String에 repeat이라는 메서드가 있음
++=는 메모리 공간 낭비
+> stringbuilder쓰자
+
 <hr>
 
 <h5>제한사항</h5>
