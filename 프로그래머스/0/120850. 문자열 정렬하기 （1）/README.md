@@ -22,6 +22,12 @@
 
 <p>문자열 <code>my_string</code>이 매개변수로 주어질 때, <code>my_string</code> 안에 있는 숫자만 골라 오름차순 정렬한 리스트를&nbsp;return 하도록 solution 함수를 작성해보세요.</p>
 
+### 배운 점
+string > int<br>
+Integer.parseInt()<br>
+int > String<br>
+String.valueOf()
+
 <hr>
 
 <h5>제한사항</h5>
