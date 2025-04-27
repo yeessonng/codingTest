@@ -22,6 +22,10 @@
 
 <p>문자열 <code>my_string</code>이 매개변수로 주어집니다. <code>my_string</code>안의 모든 자연수들의 합을 return하도록 solution 함수를 완성해주세요.</p>
 
+### 배운 점
+Character.isDigit(문자) > 해당 문자가 숫자인지?<br>
+char - '0' >  숫자
+
 <hr>
 
 <h5>제한사항</h5>
