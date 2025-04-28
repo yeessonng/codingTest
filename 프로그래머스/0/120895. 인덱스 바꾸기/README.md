@@ -22,6 +22,9 @@
 
 <p>문자열 <code>my_string</code>과 정수 <code>num1</code>, <code>num2</code>가 매개변수로 주어질 때, <code>my_string</code>에서 인덱스 <code>num1</code>과 인덱스 <code>num2</code>에 해당하는 문자를 바꾼 문자열을 return 하도록 solution 함수를 완성해보세요.</p>
 
+### 배운 점
+한 글자만 바꾸는 거니까 setCharAt써도 됨
+
 <hr>
 
 <h5>제한사항</h5>
